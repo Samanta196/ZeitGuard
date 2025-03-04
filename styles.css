@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    background-color: black; /* Ensures any uncovered area stays black */
+    overflow-x: hidden;
+}
+
+/* Background with THUNDER Image */
+body::before {
+    content: "";
+    position: fixed; /* Keeps the image fixed while scrolling */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('assets/THUNDER.png') no-repeat center center/cover;
+    z-index: -1; /* Places the image behind the content */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 400px;
+    margin: 150px auto; /* Adjusts spacing for readability */
+}
+.app-name {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 22px;
+    text-align: left;
+    width: 50%;
+}
+
+.phone-image {
+    width: 100%;
+    max-width: 150px;
+}
+
+.download-button {
+    background-color: #3067CB;
+    color: black;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+/* Tools Section */
+.tools {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/* Headline */
+.headline {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Subheadline */
+.subheadline {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Feature Rows */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+/* Feature Images */
+.feature-image {
+    width: 45%;
+    max-width: 200px;
+}
+
+/* Text Content */
+.text-content {
+    width: 45%;
+    text-align: left;
+}
+
+/* About Us Section */
+.about {
+    text-align: center;
+    margin-top: 50px;
+}
