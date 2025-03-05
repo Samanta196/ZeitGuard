@@ -1,108 +1,164 @@
-/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     color: white;
     text-align: center;
-    background-color: black; /* Ensures any uncovered area stays black */
+    background-color: black;
     overflow-x: hidden;
 }
 
-/* Background with THUNDER Image */
 body::before {
     content: "";
-    position: fixed; /* Keeps the image fixed while scrolling */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: url('assets/THUNDER.png') no-repeat center center/cover;
-    z-index: -1; /* Places the image behind the content */
+    z-index: -1;
 }
+
+.app-name {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
 
 .content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    max-width: 400px;
-    margin: 150px auto; /* Adjusts spacing for readability */
-}
-.app-name {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 24px;
-    font-weight: bold;
+    margin-top: 15vh;
 }
 
+
 .title {
-    font-size: 22px;
+    font-size: 2rem;
     text-align: left;
-    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
 }
 
 .phone-image {
-    width: 100%;
-    max-width: 150px;
+    max-width: 15rem;
 }
 
 .download-button {
     background-color: #3067CB;
     color: black;
-    padding: 12px 24px;
-    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 3rem;
 }
 
-/* Tools Section */
+
 .tools {
     text-align: center;
-    margin-top: 50px;
-    padding: 20px;
+    margin-top: 3rem;
+    padding: 30px;
 }
 
-/* Headline */
-.headline {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
 
-/* Subheadline */
 .subheadline {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 5px;
+    font-size: 1.25rem;
 }
 
-/* Feature Rows */
 .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 0;
-    flex-wrap: wrap; /* Ensures responsiveness */
+    margin: 2rem 0;
+    flex-wrap: wrap;
+    padding: 30px;
 }
 
-/* Feature Images */
+
 .feature-image {
-    width: 45%;
-    max-width: 200px;
+    width: 35%;
+    object-fit: cover;
 }
 
-/* Text Content */
 .text-content {
-    width: 45%;
+    width: 60%;
     text-align: left;
 }
 
-/* About Us Section */
 .about {
     text-align: center;
+    margin-top: 3rem;
+    padding: 30px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #111; /* Dark background for contrast */
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
     margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.footer-section h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer-bottom a {
+    color: #3067CB;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
 }
