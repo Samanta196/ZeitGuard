@@ -32,19 +32,19 @@ body::before {
 .content {
     display: flex;
     align-items: center;
-    margin-top: 15vh;
+    margin-top: 5rem;
+    padding: 90px;
+    margin-bottom: 5rem;
 }
 
 
 .title {
     font-size: 2rem;
     text-align: left;
-    margin-top: 50px;
-    padding: 30px;
 }
 
 .phone-image {
-    max-width: 15rem;
+    max-width: 18rem;
 }
 
 .download-button {
@@ -55,7 +55,6 @@ body::before {
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    margin-top: 3rem;
 }
 
 
@@ -76,7 +75,7 @@ body::before {
     justify-content: space-between;
     margin: 2rem 0;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 50px;
 }
 
 
@@ -93,16 +92,15 @@ body::before {
 .about {
     text-align: center;
     margin-top: 3rem;
-    padding: 30px;
+    padding: 40px;
 }
 
-/* Footer Styles */
 footer {
     background-color: #111; /* Dark background for contrast */
     color: white;
     text-align: center;
     padding: 20px 10px;
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 
 .footer-content {
@@ -115,30 +113,28 @@ footer {
 
 .footer-section {
     flex: 1;
-    margin: 10px;
+
 }
 
 .footer-section h3 {
     font-size: 14px;
     font-weight: lighter;
-    margin-bottom: 10px;
 }
 
 .footer-section h4 {
     font-size: 14px;
-    margin-bottom: 10px;
     text-decoration: underline;
 }
 
 .footer-section ul {
     list-style: none;
-    padding: 0;
 }
 
 .social-links {
     display: flex;
     justify-content: space-between;
     padding: 0;
+
 }
 
 .social-links img {
@@ -149,14 +145,11 @@ footer {
 
 .footer-bottom {
     border-top: 1px solid #444;
-    padding-top: 10px;
-    margin-top: 20px;
     font-size: 12px;
 }
 
 .footer-bottom a {
     color: #3067CB;
-    text-decoration: none;
 }
 
 .footer-bottom a:hover {

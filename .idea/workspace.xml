@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e43dc74f-9dfd-4a81-9696-ca0c11812dae" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/assets/FB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/IG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/LINK.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/X.png" afterDir="false" />
+    <list default="true" id="e43dc74f-9dfd-4a81-9696-ca0c11812dae" name="Changes" comment="footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/FOCUS.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/FOCUS.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/MATRIX.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/MATRIX.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/PHONE.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/PHONE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/SCREENS.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/SCREENS.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741078807151</updated>
-      <workItem from="1741078808098" duration="21030000" />
+      <workItem from="1741078808098" duration="23303000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -109,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741093441890</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="footer">
+      <option name="closed" value="true" />
+      <created>1741191096310</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741191096310</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer" />
   </component>
 </project>
